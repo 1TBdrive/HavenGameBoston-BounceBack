@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dwoyw0co8j6ee"]
+
+[ext_resource type="PackedScene" uid="uid://cy06tciqku6sx" path="res://level.tscn" id="1_e2o6t"]
+[ext_resource type="PackedScene" uid="uid://ddah0dm8qi5ak" path="res://player.tscn" id="2_feb5d"]
+
+[node name="game" type="Node2D" unique_id=1470964787]
+
+[node name="level" parent="." unique_id=810224280 instance=ExtResource("1_e2o6t")]
+
+[node name="Player" parent="." unique_id=560830349 instance=ExtResource("2_feb5d")]
